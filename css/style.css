@@ -90,7 +90,6 @@ html {
 .div__slider .slider-child {
     padding: 1rem;
     width: 100%;
-    
     animation: marquee1 15s linear infinite;
 }
 
@@ -494,6 +493,7 @@ html {
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
         display: none;
+        z-index: 100;
     }
 
     .navbar a {
