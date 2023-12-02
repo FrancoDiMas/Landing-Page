@@ -136,10 +136,11 @@ html {
 
 /* Section Products Design */
 .section__products {
-    background: url("../images/3-3.png");
+    background: url("../images/imagen-de-prueba-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -532,7 +533,11 @@ html {
 
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
+
+    .section__products .container-items {
+        padding: 4rem 0rem;
+    }
 
     .div__tittle-favorite-product h2 {
         font-size: 2.5rem;
