@@ -138,6 +138,8 @@ html {
 .section__products {
     background: url("../images/3-3.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -517,7 +519,7 @@ html {
     }
 
     .container-items .items, .div__favorite-product .items {
-        flex-basis: 60%;
+        flex-basis: 40%;
     }
 
     .container-items .tittle-item, .div__favorite-product .tittle-item {
