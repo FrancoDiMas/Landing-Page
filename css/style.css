@@ -103,6 +103,7 @@ html {
     font-weight: bold;
     white-space: nowrap;
     font-size: 1.3rem;
+    text-shadow: 0px .5px 5px #000;
 }
 
 @keyframes marquee1 {
@@ -139,7 +140,7 @@ html {
     background: url("../images/imagen-de-prueba-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 
     display: flex;
     justify-content: center;
@@ -234,8 +235,6 @@ html {
 .div__tittle-favorite-product {
     width: 100%;
     text-align: center;
-    /* padding: 3rem; */
-    /* font-size: 3rem; */
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffffff;
